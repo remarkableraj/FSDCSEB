@@ -1,0 +1,30 @@
+/* div{
+    background-color: aqua;
+} */
+
+.container{
+    background-color: cadetblue;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 100px;  
+    /* padding box ke anadar change karega  */
+    padding-left: 100px;
+    border: 2px solid red;
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+
+}
+
+.child{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px dotted yellow;
+
+
+
+
+}
