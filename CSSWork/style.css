@@ -2,7 +2,7 @@
     background-color: aqua;
 } */
 
-.container{
+/* #container{
     background-color: cadetblue;
     height: 400px;
     width: 400px;
@@ -10,14 +10,14 @@
     margin-left: 100px;
     padding-top: 100px;  
     /* padding box ke anadar change karega  */
-    padding-left: 100px;
-    border: 2px solid red;
+    /* padding-left: 100px;
+    border: 2px solid red; */
     /* box-sizing: content-box; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 
-}
+/* } */
 
-.child{
+/* .child{
     background-color: brown;
     height: 100px;
     width: 100px;
@@ -27,4 +27,61 @@
 
 
 
+/* } */ 
+
+/* p is decendant */
+
+/* div >p{
+    background-color: aqua;
+} */
+
+/* div+p{
+    background-color: aqua; 
+    div+p will change the sibling of div which is p here that is after the div
+} */
+
+
+/* .container{
+    background-color: aqua;
+
+}
+
+#cont{
+    background-color: cadetblue;
+} */
+
+.container{
+    height: 400px;
+    width: 400px;
+    background-color:lightgreen;
+    border: 2px solid red;
+    
+
+
+}
+
+.child1,.child2,.child3{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* display is used to display them in way */
+
+
+}
+.child1{
+    background-color: aqua;
+}
+.child2{
+    
+   
+    background-color: palevioletred;
+
+}
+.child3{
+  
+    background-color: blanchedalmond;
 }
